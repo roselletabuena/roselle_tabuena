@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(27, 27, 27);
+  background-image: url('/Scattered-Forcefields.svg');
+  background-position: center center;
+  background-size: cover;
 }
 
-.App-link {
-  color: #61dafb;
+
+li.nav-item.list-inline-item.px-3 {
+  color: rgb(26, 95, 243);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav {
+  z-index: 10000;
+}
+
+.border-gradient {
+  border-left: solid 10px #fff;
+  border-image-slice: 1;
+  border-width: 5px;
+}
+.border-gradient-purple {
+  border-image-source: linear-gradient(#639df3, #066ef5);
+}
+
+.border-gradient-yellow {
+  border-image-source: linear-gradient(#ec8b2f, #ffc400);
+}
+
+.btn-skills {
+  border-radius: 25px;
+  font-size: 0.8rem;
+}
+
+.custom-shape-divider-top-1598896223 {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1598896223 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 70px;
+}
+
+.custom-shape-divider-top-1598896223 .shape-fill {
+  fill: #ffffff;
+}
+
+.contact-section {
+  background-color: #2260d3;
 }

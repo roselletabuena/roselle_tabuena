@@ -1,0 +1,38 @@
+
+@media (max-width: 499px) {
+    .DesktopOnly {
+        display: none;
+    }
+    .brand-img {
+        width: 13% !important;
+    }
+}
+
+
+@media (min-width: 499px) {
+    .MobileOnly {
+        display: none;
+    }
+
+}
+
+a {
+    cursor: pointer;
+}
+
+.brand-img {
+    width: 5%;
+}
+
+.section-text {
+    letter-spacing: 5px;
+    font-size: 2em;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #ffa600;
+    outline: 0;
+    box-shadow: none !important;
+}
